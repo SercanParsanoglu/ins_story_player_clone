@@ -1,7 +1,7 @@
 //! VİDEO 11
 
 import 'package:flutter/material.dart';
-import 'package:stories_app/products/color.dart';
+import 'package:stories_app/product/constants/color.dart';
 
 class CustomTheme {
   ThemeData theme = ThemeData.light().copyWith(
@@ -16,7 +16,7 @@ class CustomTheme {
               fontWeight: FontWeight.bold),
           centerTitle: true),
       textTheme: TextTheme(
-          subtitle1: TextStyle(
+          titleMedium: TextStyle(
               color: ProjectColor.athensGrey,
               fontSize: 12,
               fontWeight: FontWeight.bold)));

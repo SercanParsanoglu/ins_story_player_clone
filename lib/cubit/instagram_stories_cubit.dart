@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:stories_app/model/users_page.dart';
-import 'package:stories_app/products/animation_speeds.dart';
-import 'package:stories_app/products/widgets/story_image_widget.dart';
-import 'package:stories_app/products/widgets/story_video_widget.dart';
-import 'package:stories_app/utils/kup_class.dart';
+import 'package:stories_app/model/user_model.dart';
+import 'package:stories_app/product/constants/animation_speeds.dart';
+import 'package:stories_app/product/widgets/story_image_widget.dart';
+import 'package:stories_app/product/widgets/story_video_widget.dart';
+import 'package:stories_app/product/utils/kup_class.dart';
 
 import 'package:video_player/video_player.dart';
 part 'instagram_stories_state.dart';
@@ -351,7 +351,6 @@ class InstagramStoriesCubit extends Cubit<InstagramStoriesState> {
       state.kontrol = false; //KONT
 
       //!SAĞA DÖNÜŞ
-
     } else if (state.kontrol && state.offset.dx > state.kupAci) {
       if (state.kullanici != state.storyList.length - 1) {
         Kup.kupyuzuguncelle(

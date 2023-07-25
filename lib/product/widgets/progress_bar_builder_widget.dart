@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/products/widgets/progress_bar_widget.dart';
-
+import 'package:stories_app/product/widgets/progress_bar_widget.dart';
 
 class ProgressBarBuilder extends StatelessWidget {
   final InstagramStoriesState instagramState;

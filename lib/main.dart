@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/products/text.dart';
-import 'package:stories_app/theme/custom_theme.dart';
+import 'package:stories_app/product/constants/strings.dart';
+import 'package:stories_app/product/theme/custom_theme.dart';
 
 import 'instagram_profiles.dart';
-import 'pages/main_page_stories.dart';
+import 'view/main_page_stories.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       create: (context) => InstagramStoriesCubit(instagramUserList),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: ProjectTexts.appBarTittle,
+        title: MyStrings.appBarTittle,
         theme: CustomTheme().theme,
         // ThemeData.light().copyWith(
         //     scaffoldBackgroundColor: ProjectColor.athensGrey,

@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/utils/kup_class.dart';
+import 'package:stories_app/product/utils/kup_class.dart';
 
 class StoryScreen extends StatelessWidget {
   final InstagramStoriesState instagramState;

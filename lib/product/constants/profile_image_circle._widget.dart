@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:stories_app/model/users_page.dart';
-import 'package:stories_app/pages/story_gecisler%20copy.dart';
-import 'package:stories_app/products/color.dart';
-import 'package:stories_app/products/paddings.dart';
+import 'package:stories_app/model/user_model.dart';
+import 'package:stories_app/view/story_gecisler.dart';
+import 'package:stories_app/product/constants/color.dart';
+import 'package:stories_app/product/constants/paddings.dart';
 
 class CircleProfile extends StatelessWidget {
   final List<InstagramUser> instagramList;

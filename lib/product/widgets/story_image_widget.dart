@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/model/users_page.dart';
-import 'package:stories_app/products/paddings.dart';
-import 'package:stories_app/products/widgets/story_screen_padding.dart';
+import 'package:stories_app/model/user_model.dart';
+import 'package:stories_app/product/constants/paddings.dart';
+import 'package:stories_app/product/widgets/story_screen_padding.dart';
 
 class StoryImage extends StatelessWidget {
   InstagramStoriesState state;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'model/users_page.dart';
-import 'utils/functions.dart';
+import 'model/user_model.dart';
+import 'product/utils/functions.dart';
 
 List<InstagramUser> instagramUserList = [
   InstagramUser(

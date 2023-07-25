@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/products/paddings.dart';
-import 'package:stories_app/products/widgets/progress_bar_builder_widget.dart';
-import 'package:stories_app/products/widgets/story_screen_widget.dart';
-import 'package:stories_app/utils/kup_class.dart';
+import 'package:stories_app/product/constants/paddings.dart';
+import 'package:stories_app/product/widgets/progress_bar_builder_widget.dart';
+import 'package:stories_app/product/widgets/story_screen_widget.dart';
+import 'package:stories_app/product/utils/kup_class.dart';
 
 class StoryGecisler extends StatelessWidget {
   double timeBarOpacity = 1;

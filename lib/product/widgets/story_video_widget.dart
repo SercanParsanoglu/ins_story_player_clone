@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/products/paddings.dart';
-import 'package:stories_app/products/widgets/story_screen_padding.dart';
-import 'package:stories_app/utils/video_items.dart';
+import 'package:stories_app/product/constants/paddings.dart';
+import 'package:stories_app/product/widgets/story_screen_padding.dart';
+import 'package:stories_app/product/utils/video_items.dart';
 import 'package:video_player/video_player.dart';
 
 class StoryVideo extends StatefulWidget {

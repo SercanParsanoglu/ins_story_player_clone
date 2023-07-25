@@ -3,8 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:stories_app/cubit/instagram_stories_cubit.dart';
-import 'package:stories_app/utils/enumim.dart';
-
+import 'package:stories_app/product/utils/enums.dart';
 
 class Kup {
   static Kupyuzu kupYuzuIsmi = Kupyuzu.onyuzu;
@@ -78,7 +77,6 @@ class Kup {
                 child: context
                     .read<InstagramStoriesCubit>()
                     .gorseligetir(1, context)),
-
           ));
           // print(kupyuzu_liste.toString());
         } else {
@@ -155,8 +153,6 @@ class Kup {
                     .read<InstagramStoriesCubit>()
                     .gorseligetir(-1, context)),
           ));
-
-
         }
         break;
 
@@ -174,7 +170,6 @@ class Kup {
                     .read<InstagramStoriesCubit>()
                     .gorseligetir(1, context)),
           ));
-
         } else {
           kupyuzuListe.add(Kupyuzu.arkayuzu);
 
@@ -189,7 +184,6 @@ class Kup {
           ));
 
           //ÖN YÜZ
-
         }
         break;
     }
